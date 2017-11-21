@@ -2,6 +2,13 @@
 
 Vulnerability Research of Actiontec R1000H and R3000 ISP provider routers. Some of this COULD apply to other Actiontec APs in North America, however UNABLE TO VERIFY.
 
+## Table of Contents
+
+- [Motivation](#motivation)
+- [Device Specs](#device-specs)
+
+<div id='motivation'/>
+
 ## Motivation
 
 ------
@@ -14,6 +21,8 @@ Not liking this at all, I had decided to build my own router on a *nix box, but 
 
 It seems Actiontec has issues with complying with GPL rules, so I decided I had no choice. Time to break into the router. This is the documentation of the work and what has been discovered so far.
 
+<div id ='device-specs'/>
+
 ## Device Specs
 
 ------
@@ -25,6 +34,8 @@ It seems Actiontec has issues with complying with GPL rules, so I decided I had 
 Wireless N Gigabit Router
 
 4 x Gig Ethernet LAN ports, 1 x Gig Ethernet WAN port, 1 x HPNA port (Coax), 1 x USB 2.0 for shared storage
+
+<div id ='real-details'/>
 
 ### REAL DETAILS
 
@@ -69,6 +80,8 @@ VCED exceptions         : not available
 VCEI exceptions         : not available
 ```
 
+<div id ='serial-jtag'/>
+
 ## Serial and JTAG locations
 
 ------
@@ -76,6 +89,8 @@ VCEI exceptions         : not available
 ![R1000h-SerialConnected](images/Actiontec-Serial-JTAG-label.jpg "R1000H Inside")
 
 UART/Serial Pin 1 is the one closet to the JTAG port. This is a 3.3v UART. Settings on your terminal program are 115200, 8N1 (ha! BBS days help again)
+
+* Make sure the Hardware Flow Controll is set to 'OFF' as well, especially when using minicom. *
 
 When connecting your UART/Serial to USB device (cause who has COM ports anymore?), you only need 3 pins to connect.
 
@@ -106,6 +121,7 @@ TODO - HOW TO GET A HEXDUMP FROM CFE AND GET A BINARY IMAGE OF BOTH BOOT IMAGES
 1. Once complete, exit `minicom`, edit the file with sed/awk/perl so you just have a valid hexdump file.
 
    Hexdump should look a little something like this before editing
+
 ```
 b8000460: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
 b8000470: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
@@ -155,9 +171,12 @@ b80005c0: 6d 39 36 33 78 78 5f 66 73 5f 6b 65 72 6e 65 6c
 b80005d0: 20 64 3d 39 20 70 3d 30 20 00 00 00 00 00 00 00
 ```
 
-4. Using `xxd -r` on the new file should give you a binary file that you can use binwalk on and extract the firmware from. Hooray! \o/
+4. Using `xxd -r -p` on the new file should give you a binary file that you can use binwalk on and extract the firmware from. Hooray! \o/
 
 TODO: (detail usage of minicom log capturing, awk/sed/perl, xxd -r, binwalk)
+
+5. cat r1000.cap | awk 'BEGIN {s=1; e=17; } {for (i=s; i<=e; i++) printf("%s%s", $(i), i<e ? OFS : "\n");}' > test.cap
+6. cat r1000h.memdump.cap | awk 'BEGIN {s=2; e=17;} {for (i=s; i<=e; i++) printf("%s ",$(i));}' > r1000h.memdump-noaddy-repl-test-asdasdadad.dm
 
 ## OS Basics
 

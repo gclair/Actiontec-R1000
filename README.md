@@ -88,7 +88,7 @@ VCEI exceptions         : not available
 
 ![R1000h-SerialConnected](images/Actiontec-Serial-JTAG-label.jpg "R1000H Inside")
 
-UART/Serial Pin 1 is the one closet to the JTAG port. This is a 3.3v UART. Settings on your terminal program are 115200, 8N1 (ha! BBS days help again)
+UART/Serial Pin 1 is the one closet to the JTAG port. This is a 3.3v UART. Settings on your terminal program are 115200, 8N1, No Flow Control (ha! BBS days help again)
 
 * Make sure the Hardware Flow Controll is set to 'OFF' as well, especially when using minicom. *
 
@@ -109,13 +109,12 @@ GROUND, TX, RX
 
 ------
 
-TODO - HOW TO GET A HEXDUMP FROM CFE AND GET A BINARY IMAGE OF BOTH BOOT IMAGES
 ![Serial connection Established](images/minicom-SendBreak.png "Serial Connection established")
 
 1. Once connected you can start capturing all output to a log file via `minicom`.
 1. Run the CFE `dm` command, to dump all the memory.
 
-   This is a hexdump of everything on RAM. It is 64M in size, and contains two full working images, an A and a B version.
+   This is a hexdump of everything in RAM. It is 64M in size, and contains two full working images, an A and a B version.
    This is likely a failsafe in case of a bad remote upgrade.
 
 1. Once complete, exit `minicom`, edit the file with sed/awk/perl so you just have a valid hexdump file.
@@ -160,23 +159,18 @@ b8000670: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
 b8000680: 00 00 00 00 52 31 30 30 30 48 00 00 47 00 00 00    ....R1000H..G...
 b8000690: 00 00 00 00 00 00 00 00 00 00 00 40 00 00 00 08    ...........@....
 ```
-After editing it should look like this
-```
-b8000570: 63 66 65 2d 76 01 00 25 66 09 02 00 00 00 00 00
-b8000580: 00 00 00 05 65 3d 31 39 32 2e 31 36 38 2e 31 2e
-b8000590: 31 3a 66 66 66 66 66 66 30 30 20 68 3d 31 39 32
-b80005a0: 2e 31 36 38 2e 31 2e 31 30 30 20 67 3d 20 72 3d
-b80005b0: 66 20 66 3d 76 6d 6c 69 6e 75 78 20 69 3d 62 63
-b80005c0: 6d 39 36 33 78 78 5f 66 73 5f 6b 65 72 6e 65 6c
-b80005d0: 20 64 3d 39 20 70 3d 30 20 00 00 00 00 00 00 00
-```
 
-4. Using `xxd -r -p` on the new file should give you a binary file that you can use binwalk on and extract the firmware from. Hooray! \o/
+4. Quick and diry way
+```
+cat hex-dump.txt | awk 'BEGIN {s=2; e=17} {for( i = s;  i <= e; i++) printf("%s ",$(i)); }' > hex-dump-only-data.txt
+```
+ß
+5. Using `xxd -r -p` on the new file should give you a binary file that you can use binwalk on and extract the firmware from. Hooray! \o/
 
 TODO: (detail usage of minicom log capturing, awk/sed/perl, xxd -r, binwalk)
 
-5. cat r1000.cap | awk 'BEGIN {s=1; e=17; } {for (i=s; i<=e; i++) printf("%s%s", $(i), i<e ? OFS : "\n");}' > test.cap
-6. cat r1000h.memdump.cap | awk 'BEGIN {s=2; e=17;} {for (i=s; i<=e; i++) printf("%s ",$(i));}' > r1000h.memdump-noaddy-repl-test-asdasdadad.dm
+6. cat r1000.cap | awk 'BEGIN {s=1; e=17; } {for (i=s; i<=e; i++) printf("%s%s", $(i), i<e ? OFS : "\n");}' > test.cap
+7. cat r1000h.memdump.cap | awk 'BEGIN {s=2; e=17;} {for (i=s; i<=e; i++) printf("%s ",$(i));}' > r1000h.memdump-noaddy-repl-test-asdasdadad.dm
 
 ## OS Basics
 

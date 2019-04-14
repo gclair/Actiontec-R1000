@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "width": 128,
+  "height": 41,
+  "duration": 45.420176,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "ansi",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.013127,
+      "bash-3.2$ "
+    ],
+    [
+      0.991665,
+      "l"
+    ],
+    [
+      0.079548,
+      "s"
+    ],
+    [
+      0.159938,
+      " "
+    ],
+    [
+      0.079947,
+      "-"
+    ],
+    [
+      0.147574,
+      "a"
+    ],
+    [
+      0.084311,
+      "l"
+    ],
+    [
+      0.080244,
+      " "
+    ],
+    [
+      0.296135,
+      "/"
+    ],
+    [
+      0.375528,
+      "d"
+    ],
+    [
+      0.184346,
+      "e"
+    ],
+    [
+      0.223875,
+      "v"
+    ],
+    [
+      0.191878,
+      "/"
+    ],
+    [
+      0.152621,
+      " "
+    ],
+    [
+      0.543678,
+      "\u001b[D\u001b[K"
+    ],
+    [
+      1.544006,
+      "*"
+    ],
+    [
+      0.231959,
+      "u"
+    ],
+    [
+      0.159588,
+      "s"
+    ],
+    [
+      0.208309,
+      "b"
+    ],
+    [
+      0.279628,
+      "*"
+    ],
+    [
+      1.200484,
+      "\r\n"
+    ],
+    [
+      0.009031,
+      "crw-rw-rw-  1 root  wheel   19,   7 28 Nov 21:28 /dev/cu.usbserial-AL01QJ48\r\ncrw-rw-rw-  1 root  wheel   19,   6 28 Nov 21:40 /dev/tty.usbserial-AL01QJ48\r\n"
+    ],
+    [
+      0.000508,
+      "bash-3.2$ "
+    ],
+    [
+      1.686484,
+      "m"
+    ],
+    [
+      0.199638,
+      "i"
+    ],
+    [
+      0.144069,
+      "n"
+    ],
+    [
+      0.11235,
+      "i"
+    ],
+    [
+      0.256052,
+      "c"
+    ],
+    [
+      0.079926,
+      "o"
+    ],
+    [
+      0.079904,
+      "m"
+    ],
+    [
+      0.207863,
+      " "
+    ],
+    [
+      0.256112,
+      "-"
+    ],
+    [
+      0.280043,
+      "s"
+    ],
+    [
+      9.032701,
+      "\r\n"
+    ],
+    [
+      0.008188,
+      "\u001b[0m\u001b[10m"
+    ],
+    [
+      0.000167,
+      "\u001b[H\u001b[J"
+    ],
+    [
+      0.000184,
+      "\u001b[10;13H+-----[configuration]------+\u001b[11;13H|\u001b[0m\u001b[10m\u001b[7m Filenames and paths      \u001b[0m\u001b[10m|\u001b[12;13H| File transfer protocols  |\u001b[13;13H| Serial port setup        |\u001b[14;13H| Modem and dialing        |\u001b[15;13H| Screen and keyboard      |\u001b[16;13H| Save setup as dfl        |\u001b[17;13H| Save setup as..          |\u001b[18;13H| Exit                     |\u001b[19;13H| Exit from Minicom        |\u001b[20;13H+--------------------------+\u001b[19;32H"
+    ],
+    [
+      2.102139,
+      "\u001b[11;14H Filenames and paths      \u001b[11;14H\u001b[12;14H\u001b[0m\u001b[10m\u001b[7m File transfer protocols  \u001b[12;14H"
+    ],
+    [
+      0.567966,
+      "\u001b[0m\u001b[10m File transfer protocols  \u001b[12;14H\u001b[13;14H\u001b[0m\u001b[10m\u001b[7m Serial port setup        \u001b[13;14H"
+    ],
+    [
+      3.716041,
+      "\u001b[4;5H\u001b[0m\u001b[10m+-----------------------------------------------------------------------+\u001b[5;5H| A -    Serial Device      : /dev/modem                                |\u001b[6;5H| B - Lockfile Location     : /usr/local/Cellar/minicom/2.7.1/var       |\u001b[7;5H| C -   Callin Program      :                                           |\u001b[8;5H| D -  Callout Program      :                                           |\u001b[9;5H| E -    Bps/Par/Bits       : 9600 7E1                                  |\u001b[10;5H| F - Hardware Flow Control : No                                        |\u001b[11;5H| G - Software Flow Control : Yes                                       |\u001b[12;5H|                                                                       |\u001b[13;5H|    Change which setting?                                              |\u001b[14;5H+-----------------------------------------------------------------------+\u001b[13;31H\u001b[13;32H"
+    ],
+    [
+      2.127783,
+      "\u001b[4;23H+---------[Comm Parameters]----------+\u001b[5;23H|                                    |\u001b[6;23H|                                    |\u001b[7;23H| Speed            Parity      Data  |\u001b[8;23H| A: <next>        L: None     S: 5  |\u001b[9;23H| B: <prev>        M: Even     T: 6  |\u001b[10;23H| C:   9600        N: Odd      U: 7  |\u001b[11;23H| D:  38400        O: Mark     V: 8  |\u001b[12;23H| E: 115200        P: Space          |\u001b[13;23H|                                    |\u001b[14;23H| Stopbits                           |\u001b[15;23H| W: 1             Q: 8-N-1          |\u001b[16;23H| X: 2             R: 7-E-1          |\u001b[17;23H|                                    |\u001b[18;23H|                                    |\u001b[19;23H| Choice, or <Enter> to exit?        |\u001b[20;23H+------------------------------------+\u001b[19;53H\u001b[6;29HCurrent:  9600 7E1  \u001b[19;53H"
+    ],
+    [
+      3.192069,
+      "\u001b[6;29HCurrent: 115200 7E1  \u001b[19;53H"
+    ],
+    [
+      0.632118,
+      "\u001b[6;29HCurrent: 115200 8N1  \u001b[19;53H"
+    ],
+    [
+      1.616142,
+      "\u001b[4;1H    +-------------------------------------------------------\u001b[5;1H    | A -    Serial Device      : /dev/modem                \u001b[6;1H    | B - Lockfile Location     : /usr/local/Cellar/minicom/\u001b[7;1H    | C -   Callin Program      :                           \u001b[8;1H    | D -  Callout Program      :                           \u001b[9;1H    | E -    Bps/Par/Bits       : 9600 7E1                  \u001b[10;1H    | F - Hardware Flow Control : No                        \u001b[11;1H    | G - Software Flow Control : Yes                       \u001b[12;1H    |                                                       \u001b[13;1H    |    Change which setting?                              \u001b[14;1H    +-------------------------------------------------------\u001b[15;1H            | Screen and keyboard      |                    \u001b[16;1H            | Save setup as dfl        |                    \u001b[17;1H            | Save setup as..          |                    \u001b[18;1H            | Exit                     |                    \u001b[19;1H            | Exit"
+    ],
+    [
+      7.8e-05,
+      " from Minicom        |                    \u001b[20;1H            +--------------------------+                    \u001b[13;32H\u001b[9;35H115200 8N1  \u001b[10;6H\u001b[13;32H"
+    ],
+    [
+      1.97576,
+      "\u001b[10;35HYes \u001b[13;32H"
+    ],
+    [
+      0.696027,
+      "\u001b[10;35HNo  \u001b[13;32H"
+    ],
+    [
+      1.192192,
+      "\u001b[11;35HNo  \u001b[13;32H"
+    ],
+    [
+      2.35197,
+      "\u001b[4;1H                                                                             \u001b[5;1H                                                                             \u001b[6;1H                                                                             \u001b[7;1H                                                                             \u001b[8;1H                                                                             \u001b[9;1H                                                                             \u001b[10;1H            +-----[configuration]------+                                     \u001b[11;1H            | Filenames and paths      |                                     \u001b[12;1H            | File transfer protocols  |                                     \u001b[13;1H            |\u001b[0m\u001b[10m\u001b[7m Serial port setup        \u001b[0m\u001b[10m|                                     \u001b[14;1H            | Modem and dialing        |                                     \u001b[13;14H\u001b[0m\u001b[10m\u001b[7m"
+    ],
+    [
+      1.174922,
+      "\u001b[0m\u001b[10m Serial port setup        \u001b[13;14H\u001b[14;14H\u001b[0m\u001b[10m\u001b[7m Modem and dialing        \u001b[14;14H"
+    ],
+    [
+      0.207892,
+      "\u001b[0m\u001b[10m Modem and dialing        \u001b[14;14H\u001b[15;14H\u001b[0m\u001b[10m\u001b[7m Screen and keyboard      \u001b[15;14H"
+    ],
+    [
+      0.176138,
+      "\u001b[0m\u001b[10m Screen and keyboard      \u001b[15;14H\u001b[16;14H\u001b[0m\u001b[10m\u001b[7m Save setup as dfl        \u001b[16;14H"
+    ],
+    [
+      0.522777,
+      "\u001b[8;53H\u001b[0m\u001b[10m+-----------------------+\u001b[9;53H|                       |\u001b[10;53H|  Configuration saved  |\u001b[11;53H|                       |\u001b[12;53H+-----------------------+\u001b[10;75H"
+    ],
+    [
+      2.003594,
+      "\u001b[8;1H                                                                             \u001b[9;1H                                                                             \u001b[10;1H            +-----[configuration]------+                                     \u001b[11;1H            | Filenames and paths      |                                     \u001b[12;1H            | File transfer protocols  |                                     \u001b[16;14H\u001b[0m\u001b[10m\u001b[7m"
+    ],
+    [
+      0.44173,
+      "\u001b[0m\u001b[10m Save setup as dfl        \u001b[16;14H\u001b[17;14H\u001b[0m\u001b[10m\u001b[7m Save setup as..          \u001b[17;14H"
+    ],
+    [
+      0.207809,
+      "\u001b[0m\u001b[10m Save setup as..          \u001b[17;14H\u001b[18;14H\u001b[0m\u001b[10m\u001b[7m Exit                     \u001b[18;14H"
+    ],
+    [
+      0.929369,
+      "\u001b[10;1H\u001b[0m\u001b[10m                                        \u001b[11;1H                                        \u001b[12;1H                                        \u001b[13;1H                                        \u001b[14;1H                                        \u001b[15;1H                                        \u001b[16;1H                                        \u001b[17;1H                                        \u001b[18;1H                                        \u001b[19;1H                                        \u001b[20;1H                                        \u001b[1;1H"
+    ],
+    [
+      0.000311,
+      "\u001b[H\u001b[Jminicom: cannot open /dev/modem: No such file or directory\r\n"
+    ],
+    [
+      0.000842,
+      "bash-3.2$ "
+    ]
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "width": 128,
+  "height": 41,
+  "duration": 55.139794,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "ansi",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.013556,
+      "bash-3.2$ "
+    ],
+    [
+      0.476714,
+      "m"
+    ],
+    [
+      0.231978,
+      "i"
+    ],
+    [
+      0.199991,
+      "n"
+    ],
+    [
+      0.095379,
+      "i"
+    ],
+    [
+      0.416669,
+      "c"
+    ],
+    [
+      0.047861,
+      "o"
+    ],
+    [
+      0.064009,
+      "m"
+    ],
+    [
+      0.263992,
+      " "
+    ],
+    [
+      1.559891,
+      "-"
+    ],
+    [
+      0.847938,
+      "D"
+    ],
+    [
+      0.127952,
+      " "
+    ],
+    [
+      0.760283,
+      "/"
+    ],
+    [
+      0.143715,
+      "d"
+    ],
+    [
+      0.168223,
+      "e"
+    ],
+    [
+      0.176183,
+      "v"
+    ],
+    [
+      0.111617,
+      "/"
+    ],
+    [
+      1.033244,
+      "/de"
+    ],
+    [
+      0.000125,
+      "v/tty"
+    ],
+    [
+      6.8e-05,
+      ".us"
+    ],
+    [
+      0.000197,
+      "bse"
+    ],
+    [
+      6.3e-05,
+      "ria"
+    ],
+    [
+      4.3e-05,
+      "l-"
+    ],
+    [
+      4.2e-05,
+      "AL"
+    ],
+    [
+      0.000185,
+      "0"
+    ],
+    [
+      5.5e-05,
+      "1QJ48"
+    ],
+    [
+      1.237458,
+      "\u001b[D"
+    ],
+    [
+      0.255073,
+      "\u001b[D"
+    ],
+    [
+      0.038985,
+      "\u001b[D"
+    ],
+    [
+      0.033405,
+      "\u001b[D"
+    ],
+    [
+      0.033742,
+      "\u001b[D"
+    ],
+    [
+      0.033218,
+      "\u001b[D"
+    ],
+    [
+      0.033618,
+      "\u001b[D"
+    ],
+    [
+      0.033331,
+      "\u001b[D"
+    ],
+    [
+      0.033453,
+      "\u001b[D"
+    ],
+    [
+      0.03649,
+      "\u001b[D"
+    ],
+    [
+      0.034692,
+      "\u001b[D"
+    ],
+    [
+      0.03448,
+      "\u001b[D"
+    ],
+    [
+      0.036044,
+      "\u001b[D"
+    ],
+    [
+      0.0386,
+      "\u001b[D"
+    ],
+    [
+      0.036266,
+      "\u001b[D"
+    ],
+    [
+      0.032651,
+      "\u001b[D"
+    ],
+    [
+      0.033457,
+      "\u001b[D"
+    ],
+    [
+      0.033453,
+      "\u001b[D"
+    ],
+    [
+      0.034132,
+      "\u001b[D"
+    ],
+    [
+      0.033715,
+      "\u001b[D"
+    ],
+    [
+      0.036606,
+      "\u001b[D"
+    ],
+    [
+      0.033156,
+      "\u001b[D"
+    ],
+    [
+      0.037897,
+      "\u001b[D"
+    ],
+    [
+      0.03869,
+      "\u001b[D"
+    ],
+    [
+      0.278769,
+      "\u001b[D"
+    ],
+    [
+      0.175708,
+      "\u001b[D"
+    ],
+    [
+      0.369421,
+      "\u001b[D\u001b[1Pdev/tty.usbserial-AL01QJ48\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D"
+    ],
+    [
+      0.191669,
+      "\u001b[D\u001b[1Pdev/tty.usbserial-AL01QJ48\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D"
+    ],
+    [
+      0.168232,
+      "\u001b[D\u001b[1Pdev/tty.usbserial-AL01QJ48\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.151266,
+      "\u001b[D\u001b[1Pdev/tty.usbserial-AL01QJ48\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      0.480751,
+      "\u001b[1Pev/tty.usbserial-AL01QJ48\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      2.368,
+      "\r\n"
+    ],
+    [
+      0.012192,
+      "\u001b[0m\u001b[10m"
+    ],
+    [
+      0.000108,
+      "\u001b[H\u001b[J"
+    ],
+    [
+      4.9e-05,
+      "\u001b[0m\u001b[10m\u001b[7m\u001b[41;1H\u001b[K                                                                                                                               \r"
+    ],
+    [
+      0.001806,
+      "Meta-Z for help | 115200 8N1 | NOR | Minicom 2.7.1 | VT102 | Offline | tty.usbserial-AL01QJ48                                  \u001b[1;1H\u001b[41;1HMeta-Z for help | 115200 8N1 | NOR | Minicom 2.7.1 | VT102 | Offline | tty.usbserial-AL01QJ48                                  \u001b[1;1H\n\u001b[0m\u001b[10mWelcome to minicom 2.7.1\r\n\nOPTIONS: \r\nCompiled on May 17 2017, 15:29:14.\r\n"
+    ],
+    [
+      0.000401,
+      "Port /dev/tty.usbserial-AL01QJ48, 21:40:25\r\n\nPress Meta-Z for help on special keys\r\n\n"
+    ],
+    [
+      0.011495,
+      "I�a}h�\u0001a@XPQ�QIhAYeYAYYQaq�ItAqatAsApaqaYaqaPA�atAq#Qёq�Q�Q�Q�"
+    ],
+    [
+      14.148582,
+      "\r\n\nCFE version 1.0.37-102.9.2 for BCM96368 (32bit,SP,BE)\r\nBuild Date: Wed Jan 26 17:52:08 PST 2011 (bcm@localhost.localdomain)\r\nCopyright (C) 2000-2009 Broadcom Corporation.\r\n\nParallel flash device: name AM29LV320MT, id 0x2201, size 32768KB\r\n"
+    ],
+    [
+      0.111804,
+      "ethsw_mdio_wreg: timeout!\r\nethsw_mdio_wreg: timeout!\r\n"
+    ],
+    [
+      0.037068,
+      "CPU type 0x2A031: 400MHz, Bus: 160MHz, Ref: 64MHz\r\nCPU running TP0\r\nTotal memory: 67108864 bytes (64MB)\r\nBoot Address 0xb8000000\r\n\n\n"
+    ],
+    [
+      0.248887,
+      "Board IP address                  : 192.168.1.1:ffffff00  \r\nHost IP address                   : 192.168.1.100  \r\nGateway IP address                :   \r\nRun from flash/host (f/h)         : f  \r\nDefault host run file name        : vmlinux  \r\nDefault host flash file name      : bcm963xx_fs_kernel  \r\nBoot delay (0-9 seconds)          : 9  \r\nBoot image (0=latest, 1=previous) : 0  \r\n"
+    ],
+    [
+      0.095673,
+      "Board Id (0-11)                   : R1000H "
+    ],
+    [
+      0.049091,
+      " \r\nNumber of MAC Addresses (1-32)    : 8  \r\nBase MAC Address                  : a8:39:44:93:8a:58  \r\nPSI Size (1-64) KBytes            : 64  \r\nMain Thread Number [0|1]          : 0  \r\nBoard Serial Number               : CRAA1441200477  \r\nFactory FW Versi"
+    ],
+    [
+      9.2e-05,
+      "on                : 33.00L.28  \r\nWPS PIN                           : 38236822  \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LWPA KEY                           : 785f7332d1"
+    ],
+    [
+      5.5e-05,
+      "13d4f1773c5115d1  \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.095766,
+      "*** Press any key to "
+    ],
+    [
+      0.02185,
+      "stop auto run (9 seconds) ***\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LAuto run second count down: 9\u001b[40;29H9"
+    ],
+    [
+      1.007631,
+      "\u001b[40;29H8"
+    ],
+    [
+      1.103261,
+      "\u001b[40;29H7"
+    ],
+    [
+      1.103136,
+      "\u001b[40;29H6"
+    ],
+    [
+      1.087447,
+      "\u001b[40;29H6\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LCF"
+    ],
+    [
+      0.0241,
+      "E> \rweb info: Waiting for connection on socket 0.\u001b[K\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LCFE> \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LCFE> "
+    ],
+    [
+      1.886504,
+      "/"
+    ],
+    [
+      0.687758,
+      "\u001b[40;6H \u001b[40;6H"
+    ],
+    [
+      0.463443,
+      "?"
+    ],
+    [
+      0.46092,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LInvalid command: \"?\"\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LAvailable commands: sm, dm, w, e, r, p, c, f, i, b, reset, flashimage, help\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L*** command status = -1\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LCFE> "
+    ],
+    [
+      1.998562,
+      "e"
+    ],
+    [
+      0.367961,
+      "\u001b[40;6H \u001b[40;6H"
+    ],
+    [
+      0.287735,
+      "h"
+    ],
+    [
+      0.143946,
+      "e"
+    ],
+    [
+      0.159908,
+      "l"
+    ],
+    [
+      0.095841,
+      "p"
+    ],
+    [
+      0.63965,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.088537,
+      "Available commands:\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lsm                  Set memory or registers.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Ldm                  Dump memory or registers.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lw                   Write the whole image start from beginning of the flash\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Le                   Erase [n]vram or [a]ll flash except bootr"
+    ],
+    [
+      0.000106,
+      "om\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lr                   Run program from flash image or from host depend on [f/h] flag\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lp                   Print boot line and board parameter info\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lc                   Change booline parameters\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lf                   Write image to the flash \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Li         "
+    ],
+    [
+      0.000123,
+      "          Erase persistent storage data\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lb                   Change board parameters\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lreset               Reset the board\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lflas"
+    ],
+    [
+      0.000114,
+      "himage          Flashes a compressed image after the bootloader.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lhelp                Obtain help for CFE commands\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LFor more "
+    ],
+    [
+      0.000107,
+      "information about a command, enter 'help command-name'\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L*** command status = 0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LCFE> "
+    ],
+    [
+      13.611662,
+      "\u001b[2;30H+-------------------------------------------------------------------+\u001b[3;30H|                      Minicom Command Summary                      |\u001b[4;30H|                                                                   |\u001b[5;30H|               Commands can be called by Meta-<key>                |\u001b[6;30H|                                                                   |\u001b[7;30H|               Main Functions                  Other Functions     |\u001b[8;30H|                                                                   |\u001b[9;30H| Dialing directory..D  run script (Go)....G | Clear Screen.......C |\u001b[10;30H| Send files.........S  Receive files......R | cOnfigure Minicom..O |\u001b[11;30H| comm Parameters....P  Add linefeed.......A | Suspend minicom....J |\u001b[12;30H| Capture on/off.....L  Hangup.............H | eXit and reset.....X |\u001b[13;30H| send break.........F  initialize Modem...M | Quit with no reset.Q |\u001b[14;30H| Terminal settings..T  run Kermit.........K | Cursor key mode....I |\u001b[15;30H| lineWrap on/off....W "
+    ],
+    [
+      6.4e-05,
+      " local Echo on/off..E | Help screen........Z |\u001b[16;30H| Paste file.........Y  Timestamp toggle...N | scroll Back........B |\u001b[17;30H| Add Carriage Ret...U                                              |\u001b[18;30H|                                                                   |\u001b[19;30H|             Select function or press Enter for none.              |\u001b[20;30H+-------------------------------------------------------------------+\u001b[19;84H"
+    ],
+    [
+      0.992302,
+      "\u001b[2;1HBoard Id (0-11)                   : R1000H                                                        \u001b[3;1HNumber of MAC Addresses (1-32)    : 8                                                             \u001b[4;1HBase MAC Address                  : a8:39:44:93:8a:58                                             \u001b[5;1HPSI Size (1-64) KBytes            : 64                                                            \u001b[6;1HMain Thread Number [0|1]          : 0                                                             \u001b[7;1HBoard Serial Number               : CRAA1441200477                                                \u001b[8;1HFactory FW Version                : 33.00L.28                                                     \u001b[9;1HWPS PIN                           : 38236822                                                      \u001b[10;1HWPA KEY                           : 785f7332d113d4f1773c5115d1                                    \u001b[11;1H                                                                                "
+    ],
+    [
+      6.4e-05,
+      "                  \u001b[12;1H*** Press any key to stop auto run (9 seconds) ***                                                \u001b[13;1HAuto run second count down: 6                                                                     \u001b[14;1Hweb info: Waiting for connection on socket 0.                                                     \u001b[15;1HCFE>                                                                                              \u001b[16;1HCFE> ?                                                                                            \u001b[17;1HInvalid command: \"?\"                                                                              \u001b[18;1HAvailable commands: sm, dm, w, e, r, p, c, f, i, b, reset, flashimage, help                       \u001b[19;1H                                                                                                  \u001b[20;1H*** command status = -1                                                                           \u001b[40;6H\u001b[8;54H+----------------------+\u001b[9;54H|    Leave Minic"
+    ],
+    [
+      0.000136,
+      "om?    |\u001b[10;54H|               No     |\u001b[11;54H+----------------------+\u001b[10;75H\u001b[10;57H\u001b[0m\u001b[10m\u001b[7m   Yes  "
+    ],
+    [
+      0.903778,
+      "\u001b[8;1H\u001b[0m\u001b[10mFactory FW Version                : 33.00L.28                                \u001b[9;1HWPS PIN                           : 38236822                                 \u001b[10;1HWPA KEY                           : 785f7332d113d4f1773c5115d1               \u001b[11;1H                                                                             \u001b[40;6H"
+    ],
+    [
+      0.000397,
+      "\u001b[H\u001b[J"
+    ],
+    [
+      0.00148,
+      "bash-3.2$ "
+    ]
+  ]
+}

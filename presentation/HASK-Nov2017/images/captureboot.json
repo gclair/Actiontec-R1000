@@ -1,0 +1,1570 @@
+{
+  "version": 1,
+  "width": 128,
+  "height": 41,
+  "duration": 97.668336,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "ansi",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.013325,
+      "bash-3.2$ "
+    ],
+    [
+      0.73486,
+      "min"
+    ],
+    [
+      7.3e-05,
+      "icom -C b"
+    ],
+    [
+      0.000171,
+      "o"
+    ],
+    [
+      0.00015,
+      "ot"
+    ],
+    [
+      5e-05,
+      "up."
+    ],
+    [
+      0.000661,
+      "log -D /dev/tty.usbseri"
+    ],
+    [
+      6.2e-05,
+      "al-AL01QJ"
+    ],
+    [
+      5.9e-05,
+      "4"
+    ],
+    [
+      8.8e-05,
+      "8"
+    ],
+    [
+      0.90081,
+      "\r\n"
+    ],
+    [
+      0.012598,
+      "\u001b[0m\u001b[10m"
+    ],
+    [
+      0.000225,
+      "\u001b[H\u001b[J\u001b[0m\u001b[10m\u001b[7m\u001b[41;1H\u001b[K                                                                                                                               \r"
+    ],
+    [
+      0.001799,
+      "Meta-Z for help | 115200 8N1 | NOR | Minicom 2.7.1 | VT102 | Offline | tty.usbserial-AL01QJ48                                  \u001b[1;1H\u001b[41;1HMeta-Z for help | 115200 8N1 | NOR | Minicom 2.7.1 | VT102 | Offline | tty.usbserial-AL01QJ48                                  \u001b[1;1H\n\u001b[0m\u001b[10mWelcome to minicom 2.7.1\r\n\nOPTIONS: \r\nCompiled on May 17 2017, 15:29:14.\r\n"
+    ],
+    [
+      0.000328,
+      "Port /dev/tty.usbserial-AL01QJ48, 21:48:07\r\n\nPress Meta-Z for help on special keys\r\n\n"
+    ],
+    [
+      6.114997,
+      "\n\nCFE version 1.0.37-"
+    ],
+    [
+      0.032286,
+      "102.9.2 for BCM96368 (32bit,SP,BE)\r\nBuild Date: Wed Jan 26 17:52:08 PST 2011 (bcm@localhost.localdomain)\r\nCopyright (C) 2000-20"
+    ],
+    [
+      0.000528,
+      "09 Broadcom Corporation.\r\n\nParallel flash device: name AM29LV320MT, id 0x2201, size 32768KB\r\n"
+    ],
+    [
+      0.111161,
+      "ethsw_mdio_wreg: timeout!\r\nethsw_mdio_wreg: timeout!\r\n"
+    ],
+    [
+      0.035048,
+      "CPU type 0x2A031: 400MHz, Bus: 160MHz, Ref: 64MHz\r\nCPU running TP0\r\nTotal memory: 67108864 bytes (64MB)\r\nBoot Address 0xb8000000\r\n\n\n"
+    ],
+    [
+      0.249014,
+      "Board IP address                  : 192.168.1.1:ffffff00  \r\nHost IP address                   : 192.168.1.100  \r\nGateway IP add"
+    ],
+    [
+      0.000925,
+      "ress                :   \r\nRun from flash/host (f/h)         : f  \r\nDefault host run file name        : vmlinux  \r\nDefault host "
+    ],
+    [
+      0.000724,
+      "flash file name      : bcm963xx_fs_kernel  \r\nBoot delay (0-9 seconds)          : 9  \r\nBoot image (0=latest, 1=previous) : 0  \r\n"
+    ],
+    [
+      0.093727,
+      "Board Id (0-11)                   : "
+    ],
+    [
+      0.049484,
+      "R1000H  \r\nNumber of MAC Addresses (1-32)    : 8  \r\nBase MAC Address                  : a8:39:44:93:8a:58  \r\nPSI Size (1-64) KBy"
+    ],
+    [
+      0.000827,
+      "tes            : 64  \r\nMain Thread Number [0|1]          : 0  \r\nBoard Serial Number               : CRAA1441200477  \r\nFactory F"
+    ],
+    [
+      0.000859,
+      "W Version                : 33.00L.28  \r\nWPS PIN                           : 38236822  \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LWPA KEY                           : 785"
+    ],
+    [
+      0.000331,
+      "f7332d113d4f1773c5115d1  \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.093193,
+      "*** Press any "
+    ],
+    [
+      0.021203,
+      "key to stop auto run (9 seconds) ***\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LAuto run second count down: 9\u001b[40;29H9"
+    ],
+    [
+      1.007214,
+      "\u001b[40;29H8"
+    ],
+    [
+      1.103161,
+      "\u001b[40;29H7"
+    ],
+    [
+      1.103311,
+      "\u001b[40;29H6"
+    ],
+    [
+      1.10335,
+      "\u001b[40;29H5"
+    ],
+    [
+      1.087269,
+      "\u001b[40;29H4"
+    ],
+    [
+      1.103259,
+      "\u001b[40;29H3"
+    ],
+    [
+      1.103311,
+      "\u001b[40;29H2"
+    ],
+    [
+      1.103368,
+      "\u001b[40;29H1"
+    ],
+    [
+      1.113975,
+      "\u001b[40;29H0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LBooting from latest image (0xb8020000) ...\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LCode Address: 0x80010000, Entry Address: 0x803078b0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      11.785411,
+      "Decompression OK!\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LEntr"
+    ],
+    [
+      0.016093,
+      "y at 0x803078b0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LClosing network.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LDisabling Switch ports.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.991254,
+      "Flushing Receive Buffers"
+    ],
+    [
+      0.021295,
+      "...\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L0 buffers found.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LClosing DMA Channels.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LStarting program at 0x803078b0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015683,
+      "Linux version"
+    ],
+    [
+      0.153355,
+      " 2.6.30 (wayne@localhost.localdomain) (gcc version 4.4.2 (Buildroot 2010.02-git) ) #1 SMP PREEMPT Tue Sep 15 12:05:\u001b[40;128H4\u001b[40;128H7\u001b[40;128H \u001b[40;128HC\u001b[40;128HS\u001b[40;128HT\u001b[40;128H \u001b[40;128H2\u001b[40;128H0\u001b[40;128H1\u001b[40;128H5\u001b[40;128H\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;128H"
+    ],
+    [
+      0.00054,
+      "\rParallel flash device: name AM29LV320MT, id 0x2201 size 32768KB\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;64H\rR1000H prom init\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;17H\rCPU revision is: 0002a031 (Broadcom4350)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\rD"
+    ],
+    [
+      0.000699,
+      "SL SDRAM reserved: 0x100000\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;29H\rDetermined physical RAM map:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;29H\r memory: 03f00000 @ 00000000 (usable)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;38H\rZone PFN ranges:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;17H\r  DMA      "
+    ],
+    [
+      0.000582,
+      "0x00000000 -> 0x00001000\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;36H\r  Normal   0x00001000 -> 0x00003f00\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;36H\rMovable zone start PFN for each node\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\rearly_node_map[1] active P"
+    ],
+    [
+      0.00051,
+      "FN ranges\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;36H\r    0: 0x00000000 -> 0x00003f00\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\rOn node 0 totalpages: 16128\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;28H\rfree_area_init_node: node 0, pgdat 803c60b0, node_mem_"
+    ],
+    [
+      0.000654,
+      "map 81000000\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;67H\r  DMA zone: 32 pages used for memmap\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r  DMA zone: 0 pages reserved\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;29H\r  DMA zone: 4064 pages, LIFO batch:0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r  Norma"
+    ],
+    [
+      0.000519,
+      "l zone: 94 pages used for memmap\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;40H\r  Normal zone: 11938 pages, LIFO batch:1\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\rBuilt 1 zonelists in Zone order, mobility grouping "
+    ],
+    [
+      0.000593,
+      "on.  Total pages: 16002\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;75H\rKernel command line: root=31:0 ro noinitrd console=ttyS0,115200\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;64H\rwait instruction: enabled\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;26H\rPrimary in"
+    ],
+    [
+      0.000526,
+      "struction cache 64kB, VIPT, 4-way, linesize 16 bytes.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;64H\rPrimary data cache 32kB, 2-way, VIPT, cache aliases, linesize 16 bytes\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;71H\r"
+    ],
+    [
+      0.000656,
+      "NR_IRQS:128\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;12H\rPID hash table entries: 256 (order: 8, 1024 bytes)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;51H\rconsole [ttyS0] enabled\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;24H\rDentry cache hash table entries: 8192"
+    ],
+    [
+      0.000525,
+      " (order: 3, 32768 bytes)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;62H\rInode-cache hash table entries: 4096 (order: 2, 16384 bytes)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;61H\rMemory: 59616k/64512k available (3069k "
+    ],
+    [
+      0.000365,
+      "kernel code, 4876k reserved, 748k data, 148k init, 0k highmem)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;102H\rCalibrating delay loop... "
+    ],
+    [
+      0.009395,
+      "399.36 BogoMIPS (lpj=199680)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;55H\rMount-cache hash table ent"
+    ],
+    [
+      0.027763,
+      "ries: 512\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;36H\r--Kernel Config--\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;18H\r  SMP=1\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;8H\r  PREEMPT=1\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;12H\r  DEBUG_SPINLOCK=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;19H\r  DEBUG_MUTEXES=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;18H\rBroadcom Logger v0.1 Sep 15 2015 12:"
+    ],
+    [
+      8.9e-05,
+      "01:57\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\r"
+    ],
+    [
+      0.059179,
+      "CPU revision is: 0002a031 (Broadcom4350)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\rPrimary instruction cache 64kB, VIPT, 4-way, linesize 16 bytes.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;64H\rPrimary data cache 3"
+    ],
+    [
+      0.000481,
+      "2kB, 2-way, VIPT, cache aliases, linesize 16 bytes\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;71H\rCalibrating delay loop... 402.43 BogoMIPS (lpj=201216)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;55H\rBrought up 2 CPUs\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;18H\r"
+    ],
+    [
+      0.000349,
+      "net_namespace: 1140 bytes\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;26H\rNET: Registered protocol family 16\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\rTotal Flash size: 32768K with 256 sectors\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\r"
+    ],
+    [
+      0.094824,
+      "registering PCI controller with io_m"
+    ],
+    [
+      0.01595,
+      "ap_base unset\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;50H\rbio: create slab <b"
+    ],
+    [
+      0.109617,
+      "io-0> at 0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;30H\rSCSI subsystem initialized\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;27H\rusbcore: registered new interface driver usbfs\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;47H\rusbcore: registered new interface drive"
+    ],
+    [
+      0.000938,
+      "r hub\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\rusbcore: registered new device driver usb\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\rpci 0000:00:01.0: reg 10 32bit mmio: [0x000000-0x00ffff]\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;57H\rpci 0000:00:01.0: s"
+    ],
+    [
+      0.000907,
+      "upports D1 D2\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;33H\rpci 0000:00:01.0: PME# supported from D0 D3hot D3cold\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;54H\rpci 0000:00:01.0: PME# disabled\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\rpci 0000:00:09.0: reg 10"
+    ],
+    [
+      0.001145,
+      " 32bit mmio: [0x10001600-0x100016ff]\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;61H\rpci 0000:00:0a.0: reg 10 32bit mmio: [0x10001500-0x100015ff]\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;61H\rBLOG v3.0 Initialize"
+    ],
+    [
+      0.000949,
+      "d\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;22H\rBLOG Rule v1.0 Initialized\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;27H\rBroadcom IQoS v0.1 Sep 15 2015 12:05:08 initialized\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;52H\rBroadcom GBPM v0.1 Sep 15 2015 12:05:09"
+    ],
+    [
+      0.000992,
+      " initialized\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;52H\rNET: Registered protocol family 8\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;34H\rNET: Registered protocol family 20\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\rNET: Registered protocol family 2\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;34H\rIP rout"
+    ],
+    [
+      0.000156,
+      "e cache hash table entries"
+    ],
+    [
+      0.063824,
+      ": 1024 (order: 0, 4096 bytes)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;63H\rTCP established hash table entries: 2048 (order: 2, 16384 bytes)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;65H\rTCP bind hash table entries: 2"
+    ],
+    [
+      0.00085,
+      "048 (order: 2, 16384 bytes)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;58H\rTCP: Hash tables configured (established 2048 bind 2048)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;57H\rTCP reno registered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;20H\rNET: Registered pro"
+    ],
+    [
+      0.00068,
+      "tocol family 1\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;34H\rsquashfs: version 4.0 (2009/01/31) Phillip Lougher\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;51H\rsquashfs: version 4.0 with LZMA457 ported by BRCM\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;50H\rfuse ini"
+    ],
+    [
+      0.000534,
+      "t (API version 7.11)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;29H\rmsgmni has been set to 116\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;27H\rio scheduler noop registered (default)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;39H\r"
+    ],
+    [
+      0.086744,
+      "Driver 'sd' needs updating - please use bus_type methods\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;57H\rPPP generic driver version 2.4.2\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;33H\rPPP Deflate Compression module regi"
+    ],
+    [
+      0.000695,
+      "stered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\rPPP BSD Compression module registered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;38H\rNET: Registered protocol family 24\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\rtun: Universal TUN/TAP device driver, 1.6\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\rt"
+    ],
+    [
+      0.000495,
+      "un: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;55H\rbcm963xx_mtd driver v1.0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;25H\rFile system address: 0xb8020100\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\rehci_hcd: USB"
+    ],
+    [
+      0.00059,
+      " 2.0 'Enhanced' Host Controller (EHCI) Driver\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;59H\rPCI: Enabling device 0000:00:0a.0 (0000 -> 0002)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;49H\rPCI: Setting latency timer of "
+    ],
+    [
+      0.000533,
+      "device 0000:00:0a.0 to 64\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;56H\rehci_hcd 0000:00:0a.0: EHCI Host Controller\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;44H\rehci_hcd 0000:00:0a.0: new USB bus registered, assigned"
+    ],
+    [
+      0.000358,
+      " bus number 1\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;69H\rehci_hcd 0000:00:0a.0: Enabling legacy PCI PM\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;46H\r"
+    ],
+    [
+      0.012857,
+      "ehci_hcd 0000:00:0a.0: irq 15, io mem 0x10001500\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;49H\r"
+    ],
+    [
+      0.059599,
+      "ehci_hcd 0000:00:0a.0: USB f.f started, EHCI 1.00\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;50H\rusb usb1: configuration #1 chosen from 1 choice\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;48H\rhub 1-0:1.0: USB hub found\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;27H"
+    ],
+    [
+      0.000844,
+      "\rhub 1-0:1.0: 2 ports detected\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;30H\rohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;55H\rPCI: Enabling device 0000:00:09.0 (0000"
+    ],
+    [
+      0.000859,
+      " -> 0002)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;49H\rPCI: Setting latency timer of device 0000:00:09.0 to 64\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;56H\rohci_hcd 0000:00:09.0: OHCI Host Controller\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;44H\rohci_hcd 0000:"
+    ],
+    [
+      0.000656,
+      "00:09.0: new USB bus registered, assigned bus number 2\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;69H\rohci_hcd 0000:00:09.0: irq 13, io mem 0x10001600\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;49H\r"
+    ],
+    [
+      0.044898,
+      "usb usb2: configuration #1 chosen fro"
+    ],
+    [
+      0.121619,
+      "m 1 choice\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;48H\rhub 2-0:1.0: USB hub found\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;27H\rhub 2-0:1.0: 2 ports detected\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;30H\rusbcore: registered new interface driver usblp\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;47H\rInitiali"
+    ],
+    [
+      0.000665,
+      "zing USB Mass Storage driver...\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;40H\rusbcore: registered new interface driver usb-storage\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;53H\rUSB Mass Storage support registered.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\rbr"
+    ],
+    [
+      0.000762,
+      "cmboard: brcm_board_init entry\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;33H\rSES: Button Interrupt 0x1 is enabled\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\rSES: LED GPIO 0x8017 is enabled\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\rSerial: BCM63XX driver $"
+    ],
+    [
+      0.0007,
+      "Revision: 3.00 $\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\rMagic SysRq enabled (type ^ h for list of supported commands)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;62H\rttyS0 at MMIO 0xb0000100 (irq = 10)"
+    ],
+    [
+      0.000715,
+      " is a BCM63XX\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;49H\rttyS1 at MMIO 0xb0000120 (irq = 11) is a BCM63XX\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;49H\rTotal # RxBds=2960\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;19H\rbcmPktDmaBds_init: Broadcom Packet DMA BDs"
+    ],
+    [
+      0.000725,
+      " initialized\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;55H\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lbcmxtmrt: Broadcom BCM6368B2 ATM/PTM Network Device v0.3 Sep 15 2015 12:04:43\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;78H\rIPSEC SPU: SUCCEEDED \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;22H\rGACT prob"
+    ],
+    [
+      0.000737,
+      "ability NOT on\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;24H\rMirror/redirect action on\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;26H\ru32 classifier\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;15H\r    input device check on \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;27H\r    Actions configured \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;24H\rTCP cubic regis"
+    ],
+    [
+      0.000765,
+      "tered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;21H\rInitializing XFRM netlink socket\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;33H\rNET: Registered protocol family 10\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\rIPv6 over IPv4 tunneling driver\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\rNET: Registered p"
+    ],
+    [
+      0.000161,
+      "rotocol family 17\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\r"
+    ],
+    [
+      0.032294,
+      "NET: Registered protocol family 15\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\rInitializing MCPD Module\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;25H\rEbtables v2.0 registered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;25H\rebt_time registered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;20H\rebt_ftos registere"
+    ],
+    [
+      0.000276,
+      "d\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;20H\rebt_wmm_mark registered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;24H\r802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;62H\rAll bugs added by David S. Miller <d"
+    ],
+    [
+      8.8e-05,
+      "avem@redhat.com>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;53H\r"
+    ],
+    [
+      0.020848,
+      "VFS: Mounted root (squashfs filesystem) readonly on device 31:0.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;65H\rFreeing unused kernel memory: 148k freed\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\r"
+    ],
+    [
+      0.71923,
+      "init started:  BusyBox v1.00 (2015.09.15-04:11+0000) multi"
+    ],
+    [
+      0.015649,
+      "-call binary\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.12154,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LBusyBox v1.00 (2015.09.15-04:11+0000) Built-in shell (msh)\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LEnter 'help' for a list of built-in commands.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047352,
+      "L"
+    ],
+    [
+      0.016057,
+      "oading drivers and kernel modules... \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.143995,
+      "bcm96368wdt: module license 'unspecified' taints "
+    ],
+    [
+      0.015812,
+      "kernel.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;57H\rDisabling lock debugging due to kernel taint\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.031926,
+      "watchdog init_module"
+    ],
+    [
+      0.016941,
+      "() called\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;30H\r"
+    ],
+    [
+      0.07754,
+      "Broadcom Ingress QoS Module  Char Driver v0.1 Sep 15 2015 12:02:41 Registered<243>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;83H\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LBroadcom Ingress QoS ver 0.1 initialized\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\r"
+    ],
+    [
+      0.031422,
+      "BPM: tot_mem_s"
+    ],
+    [
+      0.027128,
+      "ize=67108864B (64MB), buf_mem_size=10066329B (9MB), num of buffers=4802, buf size=2096\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;101H\rBroadcom BPM Module Char Driver v0.1 Se"
+    ],
+    [
+      6.6e-05,
+      "p 15 2015 12:02:40 Registered<244>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;74H\r"
+    ],
+    [
+      0.092406,
+      "[NTC bpm] bpm_set_status: BPM status : enabled \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;48H\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.095527,
+      "NBU"
+    ],
+    [
+      0.05716,
+      "FF v1.0 Initialized\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;23H\rInitialized fcache state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;25H\rBroadcom Packet Flow Cache  Char Driver v2.2 Sep 15 2015"
+    ],
+    [
+      0.00037,
+      " 12:02:45 Registered<242>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;82H\rCreated Proc FS /procfs/fcache\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;31H\rBroadcom Packet Flow Cache registered with netdev chai"
+    ],
+    [
+      0.000353,
+      "n\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;56H\rBroadcom Packet Flow Cache learning via BLOG enabled.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;54H\rConstructed Broadcom Packet Flow Cache v2"
+    ],
+    [
+      0.000139,
+      ".2 Sep 15 2015 12:02:45\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;65H\r"
+    ],
+    [
+      0.236898,
+      "CMF:CONFIG cmfConstruct:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;25H\rCMF:CONFIG pktDbgLvl[0xc00ec954]=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\rCMF:HAL pktCmfHalConstruct:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;28H\r"
+    ],
+    [
+      0.000667,
+      "CMF:HAL pktDbgLvl[0xc00e460c]=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\rCMF:HAL pktCmfHalConstruct:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;28H\rCMF:HAL pktDbgLvl[0xc00e460c]=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\r"
+    ],
+    [
+      0.000746,
+      "CMF:DRV pktCmfDrvConstruct:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;28H\rCMF:DRV pktDbgLvl[0xc00ec964]=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\rBroadcom Packet CMF (Experimental) "
+    ],
+    [
+      0.000534,
+      "Char Driver v0.1 Sep 15 2015 12:02:42 Registered<232>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;89H\rCMF:PROTO pktCmfProtoConstruct:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\rCMF:PROTO pktDbgL"
+    ],
+    [
+      0.000577,
+      "vl[0xc00ec930]=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;34H\rBroadcom Packet CMF (Experimental) [6368-B2] v0.1 Sep 16 2011 12:24:46 Loaded\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;78H\r"
+    ],
+    [
+      0.157091,
+      "bcmxtmcfg: bcmxtmcfg_init entry\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\r"
+    ],
+    [
+      0.303475,
+      "adsl: adsl_init entry\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;22H\r"
+    ],
+    [
+      0.354654,
+      "Broadcom BCM6368B2 Ethernet Network Device v0.1 Sep 15 2015 12:04:36\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;69H\rETH Init: Ch:0 - 180 tx BDs at 0xa3aa5000\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\rETH Init: Ch:0"
+    ],
+    [
+      9.3e-05,
+      " - 960 rx BDs at 0xa2b64000\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\r"
+    ],
+    [
+      0.015231,
+      "dgasp: kerSysRegisterDyingGaspHan"
+    ],
+    [
+      0.049049,
+      "dler: bcmsw registered \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;57H\rCMF:HW pktDbgLvl[0xc00dd5b0]=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;31H\rCMF:HW pktCmfHwReset: Reset HW layer.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;38H\r"
+    ],
+    [
+      0.000381,
+      "Broadcom Packet CMF (Experimental) SWC RESET.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;46H\rBRCM Ext Switch: Tag <1:0x888a:4> Port<5>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\rBroadcom Packet CMF (E"
+    ],
+    [
+      0.000321,
+      "xperimental) SWC INITIALIZED.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;52H\rCMF:FWD pktCmfFwdDevConstruct:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;31H\rCMF:FWD pktDbgLvl[0xc00ecbd4]=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\r"
+    ],
+    [
+      3.2e-05,
+      "Broadcom "
+    ],
+    [
+      0.032218,
+      "Packet CMF (Experimental) Forwarder Net Device 0 v0.1 Sep 15 2015 12:02:43 Registered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;95H\rCMF Fwd Hnd DbgLvl <0xc00ecc00> = <0"
+    ],
+    [
+      0.000325,
+      ">\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;38H\rCMF:FWD pktCmfFwdDevConstruct:\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;31H\rCMF:FWD pktDbgLvl[0xc00ecbd4]=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;32H\r"
+    ],
+    [
+      0.033226,
+      "Broadcom Packet CMF (Experimental) Forwarder Net Device 0 v0.1 Sep 15 2015 12:02:43 Registered\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;95H\rCMF Fwd Hnd DbgLv"
+    ],
+    [
+      0.000434,
+      "l <0xc00ecc00> = <0>\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;38H\rBroadcom Packet CMF (Experimental) ENABLED.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;44H\r"
+    ],
+    [
+      0.014853,
+      "eth3: MAC Address: A8:39:44:93:8A:58\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.016074,
+      "eth2: MAC Address: A8:39:44:93:8A:58\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.018121,
+      "eth1: MAC Address: A8:39:44:93:8A"
+    ],
+    [
+      0.013612,
+      ":58\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.01647,
+      "eth0: MAC Address: A8:39:44:93:8A:58\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.015476,
+      "ewan0: MAC Address: A8:39:44:93:8A:58\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;38H\r"
+    ],
+    [
+      0.017318,
+      "eth4:"
+    ],
+    [
+      0.014659,
+      " MAC Address: A8:39:44:93:8A:58\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\rswitch_id=53115\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;16H\r"
+    ],
+    [
+      0.114593,
+      "Broadcom BCM6368B2 USB Network Device v0.4a Sep 15 2015 12:02:57\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;65H\rusb0: MAC Address: A8 39 44 93 8A 59\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\rusb0: Host MAC Address:"
+    ],
+    [
+      0.000414,
+      " A8 39 44 93 8A 5B\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\rUSBD Initialization done status 0 \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\r"
+    ],
+    [
+      0.057127,
+      "USB Link DOWN.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lmessage received before monitor task is initialized kerSysSendtoMonitorTask \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;77H\r"
+    ],
+    [
+      2.352274,
+      "--SMP support\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;14H\rwl: dsl_tx_pkt_flush_len=338\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;29H\rwl: high_wmark_tot=3121\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;24H\rPCI: Enabling device 0000:00:01.0 (0000 -> 0002)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;49H\rPCI: Se"
+    ],
+    [
+      0.000751,
+      "tting latency timer of device 0000:00:01.0 to 64\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;56H\rwl: passivemode=1\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;18H\rwl: napimode=0\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;15H\rwl0: allocskbmode=1 currallocskbsz=512\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;39H\r"
+    ],
+    [
+      0.119174,
+      "wl0: Broadcom BCM432b 802.11 Wireless Controller 5.100.138.2001.cpe33.120L08.3\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;79H\rdgasp: kerSysRegisterDyingGaspHandler: wl0 regi"
+    ],
+    [
+      0.000507,
+      "stered \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;55H\rIRQ 21/brcm_21: IRQF_DISABLED is not guaranteed on shared IRQs\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;63H\r"
+    ],
+    [
+      0.110488,
+      "p8021ag: p8021ag_init entry\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;28H\r"
+    ],
+    [
+      0.191962,
+      "Broadcom 802.1Q VLAN Interfa"
+    ],
+    [
+      0.015857,
+      "ce, v0.1\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.208347,
+      "Broadcom Packet CMF (Experimental) DISABLED.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.575456,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L=====BELLALIA"
+    ],
+    [
+      0.021401,
+      "NT R1000H  Release Version 33.120L.08 (build timestamp 150915_1206) =====\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.522684,
+      "rm: cannot remove `/var/dbus/messagebus.pid': No such file or directory\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031628,
+      "killall: dbus-daemon: no process killed\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      4.717789,
+      "old image is sdk10 image\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lv1_v2=0, v12_v3=0, sdk136_to_10=0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.287791,
+      "cat: /var/fyi/sys/dnsv6: No such file or directory\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015618,
+      "AEI_rut_getTimeZoneName index:"
+    ],
+    [
+      0.027253,
+      "6\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lssk:error:12.871:rutSntp_restart:132:sntp start para=-d -s ntp.actiontec.com -s pool.ntp.org -s clock.isc.org -t Atlantic Time\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.111732,
+      "interface ewan0.3 does not exist!\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.03167,
+      "SIOCGIFFLAGS: No such device\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048206,
+      "no exist file [/var/autoreservation] error num [2],rea"
+    ],
+    [
+      0.016007,
+      "son [No such file or directory]\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.255923,
+      "ssk:error:13.359:insertModuleByIndex:427:Failed "
+    ],
+    [
+      0.021428,
+      "on command .\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lssk:error:13.360:insertModulesWithDep:327:insmod xt_multiport.ko FAILED in insertModuleByIndex()\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047455,
+      "ip_tables: (C) 2000-2006 Netfilter Core Te"
+    ],
+    [
+      0.015722,
+      "am\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.224245,
+      "ssk:error:13.668:rcl_udpEchoDiagObject:485:tr143: new"
+    ],
+    [
+      0.01555,
+      "Obj->enable=0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031425,
+      "iptables: Bad rule (does a matching rule exist in that chain?)\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.026593,
+      "iptables: Bad rule (does a matching rule exist in that chain?)\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.064042,
+      "iptables: Bad rule (does a matching rule exist in "
+    ],
+    [
+      0.015843,
+      "that chain?)\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.027097,
+      "iptables: Bad rule (does a matching rule exist in that chain?)\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.063795,
+      "iptables: Bad rule (does a matching r"
+    ],
+    [
+      0.016103,
+      "ule exist in that chain?)\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047739,
+      "iptab"
+    ],
+    [
+      0.016171,
+      "les: Bad rule (does a matching rule exist in that chain?)\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.319878,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.063723,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.144001,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048108,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047791,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.079872,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047891,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047839,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.36787,
+      "device eth0 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.031955,
+      "ADDRCONF(NETDEV_UP): eth0: link is not ready\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.55977,
+      "device eth1 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.031902,
+      "ADDRCONF(NETDEV_UP): eth1: link is not ready\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.55972,
+      "device eth2 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.031847,
+      "ADDRCONF(NETDEV_UP): eth2: link is n"
+    ],
+    [
+      0.015795,
+      "ot ready\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.543775,
+      "device eth3 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.031984,
+      "ADDRCONF(NETDEV_UP): eth3: link is not ready\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.527788,
+      "device eth4 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.031873,
+      "ADDRCONF(NETDEV_UP): eth4: link is not ready\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.527848,
+      "ADDRCONF(NETDEV_UP): usb0: link is not ready\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;45H\r"
+    ],
+    [
+      0.047952,
+      "device usb0 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;37H\r"
+    ],
+    [
+      0.255855,
+      "device wl0 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;36H\r"
+    ],
+    [
+      0.058093,
+      " Wlmnger>> main(97): WLmngr Daemon is running\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L Wlmnger>> main(107): optarg=0 shmId=0 \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.111737,
+      "br0: port 7(wl0) entering forwarding state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;43H\r"
+    ],
+    [
+      0.015891,
+      "killall: wlevt: no process killed\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047914,
+      "wlevt is ready for new msg...\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.192132,
+      "ssk:error:18.783:rcl_lanAlgObject:27:switch SIP ALG to"
+    ],
+    [
+      0.015933,
+      " state 1\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Linsmod nf_conntrack_sip and nf_nat_sip\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.191831,
+      "nf_conntrack version 0.5.0 (1024 buckets, 8192 max)\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;52H\r"
+    ],
+    [
+      0.713663,
+      "BcmAdsl_Initialize=0xC0180A38, g_pFnNotifyCallback=0xC01BC3B4\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;62H\r"
+    ],
+    [
+      0.047715,
+      "Clocks for QPROC and AFE are"
+    ],
+    [
+      0.049792,
+      " being aligned with step through ... \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;66H\rAFE is aligned, i = 048, PhaseValue = -048, PhaseCntl = 0x3FD00000\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;67H\rQPROC is aligned, i "
+    ],
+    [
+      0.000869,
+      "= 030, PhaseValue = 0142, PhaseCntl = 0x3FD0001D\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;69H\rClocks for QPROC and AFE are aligned with syn_status AFE = 0x70, QPROC = 0x70"
+    ],
+    [
+      0.000815,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;78H\rAFE  phase control reg @0xb0f570f8 default actual = 0x0021C38F, exp = 0x0021c38f\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;81H\rQPRC phase control reg @0xb0f5f0c0 default "
+    ],
+    [
+      0.000291,
+      "actual = 0x0421C38F, exp = 0x0421c38f\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;81H\r"
+    ],
+    [
+      0.061257,
+      "pSdramPHY=0xA3FFFFF8, 0x55575D55 0x55755555\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;44H\r**"
+    ],
+    [
+      0.015907,
+      "* XfaceOffset: 0x5FF90 => 0x5FF90 ***\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;40H\r"
+    ],
+    [
+      0.870869,
+      "*** PhySdramSize got adjusted: 0xC4988 => 0xFAE18 ***\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;54H\rAdslCoreSharedMemInit: shareMemAvailable=20928\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;47H\r"
+    ],
+    [
+      0.029842,
+      "AdslCoreHwReset:  pLocSbSta=83488000 bkupThreshold=3072\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;56H\rAdslCoreHwReset:  AdslOemDataAddr = 0xA3FBA168\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;47H\rdgasp: kerSysRegisterD"
+    ],
+    [
+      0.00014,
+      "yingGaspHandler: dsl0 registered \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;56H\r"
+    ],
+    [
+      0.015745,
+      "XTM Init: 512 rx BDs at 0xa368c000\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;35H\rXTM Init: 16 rx"
+    ],
+    [
+      0.015753,
+      " BDs at 0xa2569d80\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;34H\r"
+    ],
+    [
+      0.048735,
+      "ADDRCONF(NETDEV_UP): ewan0: link is not ready\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;46H\r"
+    ],
+    [
+      0.057512,
+      "rcl_wanIpConnObject@264 ====>>>>>>>>>IPconnection ifName ewan0.1 is default wan=1\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lrut_sendInterfaceNameToRTD@1548 ====>>>>>>>>"
+    ],
+    [
+      0.000618,
+      ">ifName = ewan0.1\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lrcl_wanIpConnObject@264 ====>>>>>>>>>IPconnection ifName ewan0.2 is default wan=0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lrcl_wanIpConnObject@264 ="
+    ],
+    [
+      0.000321,
+      "===>>>>>>>>>IPconnection ifName ewan0.3 is default wan=0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.174512,
+      "Netfilter messages via NETL"
+    ],
+    [
+      0.015747,
+      "INK v0.30.\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;38H\r"
+    ],
+    [
+      0.128392,
+      "iptables: No chain/target/match by that name\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031792,
+      "captiveEnable=0,webActiveLogEnable=0,webSiteBlockEnable=0\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031908,
+      "/var/url_list is not existed.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Lset NE"
+    ],
+    [
+      0.015927,
+      "TLINK_RECV_NO_ENOBUFS\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.016036,
+      "ssk:error:21.338:"
+    ],
+    [
+      0.021623,
+      "rcl_wanOpt60Object:355:++++++++newObj->WANOption60=RG_R1000H_HSI_CRAA1441200477\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.01533,
+      "ssk:error:21."
+    ],
+    [
+      0.016179,
+      "376:ssk_init:1065:dbus-daemon is ready now.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.431694,
+      "br0: port 7(wl0) entering disabled state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\r"
+    ],
+    [
+      0.04193,
+      "device wl0 left promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;33H\rbr0: port 7(wl0) entering disabled state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\r"
+    ],
+    [
+      0.143942,
+      "device wl0 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;36H\r"
+    ],
+    [
+      0.095968,
+      "br0: port 7(wl0) entering forwarding state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;43H\r"
+    ],
+    [
+      0.431605,
+      "< SES_LED_OFF >\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;16H\r"
+    ],
+    [
+      0.207933,
+      "br0: port 7(wl0) entering disabled state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\r"
+    ],
+    [
+      0.271649,
+      "Setting SSID: \""
+    ],
+    [
+      0.021216,
+      "FIBREOP477\"\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LSetting SSID: \"FIBREOP477-1\"\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LSetting SSID: \"FIBREOP477-2\"\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LSetting SSID: \"FIBREOP477-3\"\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.351405,
+      "monitor task is initialized pid= 308 \u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;38H\r"
+    ],
+    [
+      0.733062,
+      "Note: forcing rev_id to zero for now \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LSwitch MDK: num_switches = 2\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LSwitch MDK: unit = 0; phy_pbmp = 0x0; config_pbmp = 0x20 \r"
+    ],
+    [
+      0.00017,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LSwitch MDK link poll thread: unit=1; phy"
+    ],
+    [
+      0.039501,
+      "pbmp=0x3f\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Leth4 (switch port: 5) Link UP 100 mbps full duplex\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;51H\reth4 Link UP\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;13H\rInitializing unitADDRCONF(NETDEV_CHANGE): eth4: li"
+    ],
+    [
+      0.000152,
+      "nk becomes ready\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;67H\r 0 in unmanaged br0: port 5(eth4) entering forwarding state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;60H\rmode \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.823398,
+      "tr69c:error:24.965:updateTr69cCfgInfo:881:could not build full path to (null)\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.607416,
+      "chanspec 0x2b06 selected \r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.07327,
+      "device wl0 left promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;33H\rbr0: port 7(wl0) entering disabled state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;41H\r"
+    ],
+    [
+      0.127625,
+      "device wl0 entered promiscuous mode\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;36H\r"
+    ],
+    [
+      0.015981,
+      "br0: port 7(wl0) entering forwarding state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;43H"
+    ],
+    [
+      0.016706,
+      "\r"
+    ],
+    [
+      0.814642,
+      "ifconf"
+    ],
+    [
+      0.021268,
+      "ig: br1: error fetching interface information: Device not found\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.073054,
+      "ifconfig: br2: error fetching interface information: Device not found\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.063855,
+      "ifconfig: br3: error fetching interface information"
+    ],
+    [
+      0.015521,
+      ": Device not found\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      2.702419,
+      "ERROR rtd.c:954 rtd init fail (-1). exit!\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.068391,
+      "Failed to open connection to \"system\" message bus: Failed to connect to socket /var/dbus/system_bus_socket: Connection refused\r"
+    ],
+    [
+      9e-05,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[Ldbusrecv_uninit exit!\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      4.412656,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.064193,
+      "===Actiontec xDSL Router===\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin: "
+    ],
+    [
+      1.726854,
+      "r"
+    ],
+    [
+      0.191663,
+      "o"
+    ],
+    [
+      0.159913,
+      "o"
+    ],
+    [
+      0.064062,
+      "t"
+    ],
+    [
+      0.175923,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LPassword: "
+    ],
+    [
+      1.023643,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin incorrect. Try again.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin: "
+    ],
+    [
+      0.495427,
+      "r"
+    ],
+    [
+      0.127867,
+      "o"
+    ],
+    [
+      0.159947,
+      "o"
+    ],
+    [
+      0.079837,
+      "t"
+    ],
+    [
+      0.207967,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LPassword: "
+    ],
+    [
+      0.799595,
+      "hpna : download cg321"
+    ],
+    [
+      0.015925,
+      "0 image.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047945,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.016066,
+      "Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015777,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin incorrect."
+    ],
+    [
+      0.016181,
+      " Try again.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin: Sorry, rule does not exist.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.191985,
+      "loading device: 00:c5:d9:00:00:00\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      1.390714,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LPassword: "
+    ],
+    [
+      1.29535,
+      "eth"
+    ],
+    [
+      0.01618,
+      "4 Link DOWN\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;25H\rbr0: port 5(eth4) entering disabled state\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L\u001b[40;42H\r"
+    ],
+    [
+      0.031524,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.016201,
+      "Authorization failed after trying 3 times!!!.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      1.454932,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      1.535066,
+      "Login: Password: "
+    ],
+    [
+      1.151317,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin incorrect. Try again.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin: "
+    ],
+    [
+      0.239518,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LPas"
+    ],
+    [
+      0.01598,
+      "sword: "
+    ],
+    [
+      0.032305,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin incorrect. Try again.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin: "
+    ],
+    [
+      0.031755,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LPassword: "
+    ],
+    [
+      0.031909,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LAuthorization failed after trying"
+    ],
+    [
+      0.016001,
+      " 3 times!!!.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015974,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.063942,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015933,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047905,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.016095,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047984,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015776,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047975,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032031,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032004,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047818,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032118,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031794,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032171,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047909,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015844,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048213,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015666,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048117,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032019,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031955,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031893,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047985,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031898,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031982,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032023,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031949,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032013,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048006,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031721,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.03215,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032024,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031981,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031887,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031923,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048131,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031802,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031925,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048201,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015965,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047879,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.015871,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048108,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031826,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031995,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031978,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031926,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047996,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031953,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031999,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031868,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048051,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032068,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.048029,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031913,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031786,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032075,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.032027,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031975,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.047966,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031902,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.031973,
+      "\u001b[1;1H\u001b[M\u001b[40;1H\u001b[L"
+    ],
+    [
+      0.831628,
+      "Login: Password: "
+    ],
+    [
+      1.103508,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin incorrect. Try again.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin: "
+    ],
+    [
+      0.655197,
+      "a"
+    ],
+    [
+      0.080019,
+      "r"
+    ],
+    [
+      0.095861,
+      "g"
+    ],
+    [
+      0.415672,
+      "!"
+    ],
+    [
+      0.943373,
+      " "
+    ],
+    [
+      0.239855,
+      "o"
+    ],
+    [
+      0.224064,
+      "h"
+    ],
+    [
+      0.143652,
+      " "
+    ],
+    [
+      0.111895,
+      "n"
+    ],
+    [
+      0.2079,
+      "o"
+    ],
+    [
+      0.063958,
+      "e"
+    ],
+    [
+      0.080148,
+      "s"
+    ],
+    [
+      0.191637,
+      "."
+    ],
+    [
+      0.176004,
+      "."
+    ],
+    [
+      0.159774,
+      " "
+    ],
+    [
+      0.223971,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LPassword: "
+    ],
+    [
+      2.446354,
+      "\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin incorrect. Try again.\r\u001b[1;1H\u001b[M\u001b[40;1H\u001b[LLogin: "
+    ],
+    [
+      7.76229,
+      "\u001b[2;30H+-------------------------------------------------------------------+\u001b[3;30H|                      Minicom Command Summary                      |\u001b[4;30H|                                                                   |\u001b[5;30H|               Commands can be called by Meta-<key>                |\u001b[6;30H|                                                                   |\u001b[7;30H|               Main Functions                  Other Functions     |\u001b[8;30H|                                                                   |\u001b[9;30H| Dialing directory..D  run script (Go)....G | Clear Screen.......C |\u001b[10;30H| Send files.........S  Receive files......R | cOnfigure Minicom..O |\u001b[11;30H| comm Parameters....P  Add linefeed.......A | Suspend minicom....J |\u001b[12;30H| Capture on/off.....L  Hangup.............H | eXit and reset.....X |\u001b[13;30H| send break.........F  initialize Modem...M | Quit with no reset.Q |\u001b[14;30H| Terminal settings..T  run Kermit.........K | Cursor key mode....I |\u001b[15;30H| lineWrap on/off....W "
+    ],
+    [
+      4.9e-05,
+      " local Echo on/off..E | Help screen........Z |\u001b[16;30H| Paste file.........Y  Timestamp toggle...N | scroll Back........B |\u001b[17;30H| Add Carriage Ret...U                                              |\u001b[18;30H|                                                                   |\u001b[19;30H|             Select function or press Enter for none.              |\u001b[20;30H+-------------------------------------------------------------------+\u001b[19;84H"
+    ],
+    [
+      0.319839,
+      "\u001b[2;1H                                                                                                  \u001b[3;1H                                                                                                  \u001b[4;1H                                                                                                  \u001b[5;1H                                                                                                  \u001b[6;1H                                                                                                  \u001b[7;1H                                                                                                  \u001b[8;1H                                                                                                  \u001b[9;1H                                                                                                  \u001b[10;1H                                                                                                  \u001b[11;1H                                                                                "
+    ],
+    [
+      5.3e-05,
+      "                  \u001b[12;1H                                                                                                  \u001b[13;1H                                                                                                  \u001b[14;1H                                                                                                  \u001b[15;1H                                                                                                  \u001b[16;1H                                                                                                  \u001b[17;1H                                                                                                  \u001b[18;1H                                                                                                  \u001b[19;1H                                                                                                  \u001b[20;1H                                                                                                  \u001b[40;8H\u001b[8;54H+----------------------+\u001b[9;54H|    Leave Minic"
+    ],
+    [
+      0.00013,
+      "om?    |\u001b[10;54H|               No     |\u001b[11;54H+----------------------+\u001b[10;75H\u001b[10;57H\u001b[0m\u001b[10m\u001b[7m   Yes  "
+    ],
+    [
+      0.83123,
+      "\u001b[8;1H\u001b[0m\u001b[10m                                                                             \u001b[9;1H                                                                             \u001b[10;1H                                                                             \u001b[11;1H                                                                             \u001b[40;8H"
+    ],
+    [
+      0.000495,
+      "\u001b[H\u001b[J"
+    ],
+    [
+      0.001501,
+      "bash-3.2$ "
+    ]
+  ]
+}

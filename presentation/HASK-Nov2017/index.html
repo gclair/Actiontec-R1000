@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<link rel="stylesheet" type="text/css" href="plugin/asciinema/asciinema-player.css" />
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown data-separator="---" data-separator-vertical="--"> 
+                    <script type="text/template">
+						## Intro
+						<img src="images/GurjeetVSRouter.png" style="width: 800px">
+
+						Note: This is a quick-ish talk on a simple project that pivoted a bit. Like browsing Imgur
+						it just kept going. Had this AP Router, and I thought I had complete control over it. 
+						I had altered the administrative username and password, modified the firewall rules to be restrictive.
+						Had to call to get some help on configuring it at one point, and was told thye could reset it to 'factory'
+						defaults remotely. Fascinated I wondered how. This is how I learned about the existence of TR-069 (another talk).
+					
+
+						--
+					
+						## The story so far
+						<img src="images/Actiontec-Front.jpg" style="width: 600px">
+
+						Note: 	Not liking this at all, I had decided to build my own router on a *nix box, but had to 
+						learn how the router was operated. We had IPTV through the device and multicast routing via VLAN 
+						with priority tagging wasn't an easy thing to accomplish. 
+						Putting this project aside while I learned more about what options were available to me, 
+						I decided I needed more information on the configuration. This is when I went looking for the firmware.
+
+						-- 
+
+						## Moar Intro Story!
+						<img src="images/Actiontec-Inside.jpg" style="width: 600px">
+						
+						Note: It seems Actiontec has issues with complying with GPL rules, so I decided I had no choice. 
+						Time to break into the router. This is the documentation of the work and what has been discovered so far. 
+
+						--
+						
+						## Remember TR-069?
+						<img src="images/avg-vforvendetta.ans.png" style="width: 200px">
+
+						Note: When I asked the tech HOW they were able to reset my 'locked down' AP router, 
+						they said, "uhh, I don't think I can tell you that sir" as if it was a secret.
+
+                        ---
+					
+						## O RLY?!
+						<img src="images/furry-challengeAccepted.gif" style="width: 400px">
+						
+                        ---
+					
+						## Project Replace Router
+
+						Note: Short story, so far its not moved forward; IGMP Multicast routing with priority vlan settings is hard
+						on pfSense (not implemented yet) or OpenBSD pf/igmp routing. You can replace with an ASUS (jason keirstead)
+
+						--
+
+						### Now what?
+
+						Note: Getting the firmware would be one thing, but i was more interested in the ISP configuration.
+						Tried snmpwalk (worked with eastlink), no go. Nmap didn't show much. Lets get dirty. Don't use my own
+						router. Yay Kijiji! 
+						 
+						---
+
+						## Whats available to me?
+						/dev/ttys0 is a great resource
+						http://www.devttys0.com/
+
+						<img src="images/Actiontec-Serial-JTAG-label.jpg" style="width: 600px">
+
+						Note: Once obtained, need to identify the chips and ports that are available to you. devttys0 is a great
+						resource on what do to an how to do this. Also DD-WRT/OpenWRT were helpful. After identifing serial ports, 
+						going to WRT sites and saw specs on manufacturer APS that the layout was the same across moels. Assuming they
+						did the "if it ain broke, don't fix/change it" plan, got me a serial connection. JTAG to explore later.
+
+						---
+
+						## UART connection
+						<img src="images/OSEPP-FTDI.jpg" style="width: 700px">
+
+						Note: Once you ID the UART ports on the device, connect to hacking device of choice. You'll need
+						to be able to establish a serial connection. If you don't have an RS-232 port an FTDI based
+						USB-to-Serial converter device will work best. Or an Rpi works great too. 
+					</script>
+				</section>
+				<section data-center="false">
+						<h4>Setup Terminal program</h4>
+						<div class="asciicast">
+							<!--
+								{
+									"URL": "images/setupminicom.json"
+								}
+							-->
+						</div>
+				</section>
+				<section data-center="false">
+					<h4>Running term program</h4>
+						<div class="asciicast">
+							<!--
+								{
+									"URL": "images/runminicom.json"
+								}
+							-->
+						</div>
+				</section>
+				<section data-center="false">
+						<h4> Capture Boot </h4>
+						<div class="asciicast">
+							<!--
+								{
+									"URL": "images/captureboot.json"
+								}
+							-->
+						</div>
+				</section>
+				<section data-center="false">
+						<h4> Capture dump </h4>
+						<div class="asciicast">
+							<!--
+								{
+									"URL": "images/capture-dump.json"
+								}
+							-->
+						</div>
+				</section>
+				<section>
+						<h4>Whatta twis... dump!</h4>
+						<img src="images/Hexdump-1.png" style="width: 1000px">
+					</section>
+	
+				<section data-center="false">
+						<h4> Transform Dump pt - 1</h4>
+						<img src="images/HexDump-strip-Address.png" style="width: 800px">
+						<div class="asciicast">
+							<!--
+								{
+									"URL": "images/transform-hex-dump.json"
+								}
+							-->
+						</div>
+				</section>
+				<section>
+					<h4>Transform Dump - pt 2</h4>
+					<img src="images/HexDump-convert-to-bin.png" style="width: 1000px">
+				</section>
+				<section>
+					<h4>Extract Dump - binwalk on Linux</h4>
+					<img src="images/ExtractImage.png" style="width: 1000px">
+				</section>
+				<section data-center="false">
+						<h4> Get some!</h4>
+						<div class="asciicast">
+							<!--
+								{
+									"URL": "images/extract-firmware.json"
+								}
+							-->
+						</div>
+				</section>
+				
+				<section data-markdown data-separator="---" data-separator-vertical="--"> 
+						<script type="text/template">
+							
+							<img src="images/horsenburger-matrix.jpg.png" style="width: 700px">
+
+							---
+							## Nifty things found
+							<img src="images/HiddenMenus-telnet.png" style="width: 800px">
+	
+							Note: Hidden Options
+						---
+							## Advanced options
+							<img src ="images/HiddenOptions-Advance.png" style="width: 800px">
+
+						---
+						  ## Pull into Dissassembler
+						  <img src="images/radare2-httpd-esil.png" style="width: 800px">
+							
+						---
+						## Enable telnet
+						<img src="images/RemoteTelnet.png" style="width: 600px">
+
+						--
+						<img src="images/Shame.png" style="width: 300px">
+						
+						---
+						## Exploit Samba
+						<img src="images/Reverse-Shell.py.png" style="width: 800px">
+
+						--
+						## Reverse Shell
+						<img src="images/Reverse-Shell-netcat-listen.png" style="width: 700px">
+
+						---
+						# Port Mirroring
+						<img src="images/PortMirroring.png" style="width: 700px">
+
+						---
+						## Look at syslog
+						<img src="images/Syslog.png" style="width: 500px">
+
+						---
+						<img src="images/hb-die_hard1.jpg.png" style="width: 800px">
+					  </script>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				anything: [ {
+					className: "asciicast",
+                    defaults: { theme: 'monokai', fontSize: '15px'},
+                    initialize: (function(container, options) {
+                    	asciinema.player.js.CreatePlayer(container, options.URL, options);
+                    })
+				   }
+				],
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/asciinema/asciinema-player.js' },
+					{ src: 'socket.io/socket.io.js', async: true },
+					{ src: 'plugin/notes-server/client.js', async: true },
+					{ src: 'plugin/anything/anything.js' },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

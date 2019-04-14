@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "width": 128,
+  "height": 41,
+  "duration": 25.290863,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "ansi",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.01567,
+      "bash-3.2$ "
+    ],
+    [
+      0.685163,
+      "l"
+    ],
+    [
+      0.119043,
+      "e"
+    ],
+    [
+      0.185075,
+      "s"
+    ],
+    [
+      0.159802,
+      "s"
+    ],
+    [
+      0.063421,
+      " "
+    ],
+    [
+      0.191925,
+      "b"
+    ],
+    [
+      0.528675,
+      "i"
+    ],
+    [
+      0.167779,
+      "i"
+    ],
+    [
+      0.08021,
+      "t"
+    ],
+    [
+      0.361575,
+      "\u001b[D\u001b[K"
+    ],
+    [
+      0.1662,
+      "\u001b[D\u001b[K"
+    ],
+    [
+      0.127887,
+      "\u001b[D\u001b[K"
+    ],
+    [
+      0.296346,
+      "i"
+    ],
+    [
+      0.456023,
+      "\u001b[D\u001b[K"
+    ],
+    [
+      0.27153,
+      "o"
+    ],
+    [
+      0.152587,
+      "o"
+    ],
+    [
+      0.119222,
+      "t"
+    ],
+    [
+      0.136334,
+      "up.log "
+    ],
+    [
+      0.824214,
+      "\r\n"
+    ],
+    [
+      0.009523,
+      "\r"
+    ],
+    [
+      9.5e-05,
+      "\r\n\r\nCFE version 1.0.37-102.9.2 for BCM96368 (32bit,SP,BE)\r\nBuild Date: Wed Jan 26 17:52:08 PST 2011 (bcm@localhost.localdomain)\r\nCopyright (C) 2000-2009 Broadcom Corporation.\r\n\r\nParallel flash device: name AM29LV320MT, id 0x2201, size 32768KB\r\nethsw_mdio_wreg: timeout!\r\nethsw_mdio_wreg: timeout!\r\nCPU type 0x2A031: 400MHz, Bus: 160MHz, Ref: 64MHz\r\nCPU running TP0\r\nTotal memory: 67108864 bytes (64MB)\r\nBoot Address 0xb8000000\r\n\r\n\r\nBoard IP address                  : 192.168.1.1:ffffff00  \r\nHost IP address                   : 192.168.1.100  \r\nGateway IP address                :   \r\nRun from flash/host (f/h)         : f  \r\nDefault host run file name        : vmlinux  \r\nDefault host flash file name      : bcm963xx_fs_kernel  \r\nBoot delay (0-9 seconds)          : 9  \r\nBoot image (0=latest, 1=previous) : 0  \r\nBoard Id (0-11)                   : R1000H  \r\nNumber of MAC Addresses (1-32)    : 8  \r\nBase MAC Address                  : a8:39:44:93:8a:58  \r\nPSI Size (1-64) KBytes            : 64  \r\nMain Thread Number [0|1] "
+    ],
+    [
+      0.000133,
+      "         : 0  \r\nBoard Seria"
+    ],
+    [
+      0.000115,
+      "l Number               : CRAA1441200477  \r\nFactory FW Version                : 33.00L.28  \r\nWPS PIN                           : 38236822  \r\nWPA KEY                           : 785f7332d113d4f1773c5115d1  \r\n\r\n*** Press any key to stop auto run (9 seconds) ***\r\nAuto run second count down: \u001b[1m0\u001b[0m\r\nBooting from latest image (0xb8020000) ...\r\nCode Address: 0x80010000, Entry Address: 0x803078b0\r\nDecompression OK!\r\nEntry at 0x803078b0\r\nClosing network.\r\n\u001b[7mbootup.log\u001b[m\u001b[K"
+    ],
+    [
+      1.885305,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      0.000166,
+      "\u001b[KB\u001b[DB\r\u001b[KDisabling Switch ports.\r\n:\u001b[K"
+    ],
+    [
+      0.199802,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[K"
+    ],
+    [
+      0.000109,
+      "Flushing Receive Buffers...\r\n:\u001b[K"
+    ],
+    [
+      0.175877,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      0.000104,
+      "\u001b[KB\u001b[DB\r\u001b[K0 buffers found.\r\n:\u001b[K"
+    ],
+    [
+      0.167829,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      4.8e-05,
+      "\u001b[KB\u001b[DB\r\u001b[KClosing DMA Channels.\r\n:\u001b[K"
+    ],
+    [
+      0.183909,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      6.7e-05,
+      "\u001b[KB\u001b[DB\r\u001b[KStarting program at 0x803078b0\r\n:\u001b[K"
+    ],
+    [
+      0.176201,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC"
+    ],
+    [
+      0.000128,
+      "\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[KLinux version 2.6.30 (wayne@localhost.localdomain) (gcc version 4.4.2 (Buildroot 2010.02-git) ) #1 SMP PREEMPT Tue Sep 15 12:05::\u001b[K"
+    ],
+    [
+      0.175708,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[K"
+    ],
+    [
+      0.000109,
+      "47 CST 2015\r\n:\u001b[K"
+    ],
+    [
+      0.183648,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[K"
+    ],
+    [
+      8.6e-05,
+      "Parallel flash device: name AM29LV320MT, id 0x2201 size 32768KB\r\n:\u001b[K"
+    ],
+    [
+      0.18429,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      4.7e-05,
+      "\u001b[KB\u001b[DB\r\u001b[KR1000H prom init\r\n:\u001b[K"
+    ],
+    [
+      0.216009,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[K"
+    ],
+    [
+      0.000126,
+      "CPU revision is: 0002a031 (Broadcom4350)\r\n:\u001b[K"
+    ],
+    [
+      0.183895,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[KDSL SDRAM reserved: 0x100000\r\n:\u001b[K"
+    ],
+    [
+      0.183844,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[K"
+    ],
+    [
+      6.3e-05,
+      "Determined physical RAM map:\r\n:\u001b[K"
+    ],
+    [
+      0.191738,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      4.7e-05,
+      "\u001b[KB\u001b[DB\r\u001b[K memory: 03f00000 @ 00000000 (usable)\r\n:\u001b[K"
+    ],
+    [
+      0.184016,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      3.9e-05,
+      "\u001b[KB\u001b[DB\r\u001b[KZone PFN ranges:\r\n:\u001b[K"
+    ],
+    [
+      1.296203,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      5.9e-05,
+      "\u001b[KB\u001b[DB\r\u001b[K  DMA      0x00000000 -> 0x00001000\r\n:\u001b[K"
+    ],
+    [
+      0.207705,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[K"
+    ],
+    [
+      6.3e-05,
+      "  Normal   0x00001000 -> 0x00003f00\r\n:\u001b[K"
+    ],
+    [
+      0.608145,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D["
+    ],
+    [
+      4.7e-05,
+      "\u001b[KB\u001b[DB\r\u001b[KMovable zone start PFN for each node\r\n:\u001b[K"
+    ],
+    [
+      0.239784,
+      "\r\u001b[K \u001b[KESC\u001b[D\u001b[D\u001b[DESC\u001b[K[\u001b[D[\u001b[KB\u001b[DB\r\u001b[K"
+    ],
+    [
+      4.8e-05,
+      "early_node_map[1] active PFN ranges\r\n:\u001b[K"
+    ],
+    [
+      13.523846,
+      "\r\u001b[K"
+    ],
+    [
+      0.000646,
+      "bash-3.2$ "
+    ]
+  ]
+}
